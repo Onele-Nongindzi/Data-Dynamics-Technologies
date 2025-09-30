@@ -641,3 +641,11 @@ body {
   padding-top: 80px; /* Adjust based on header height */
 }
 }
+.blog-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
