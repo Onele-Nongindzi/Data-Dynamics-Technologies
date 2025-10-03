@@ -245,15 +245,28 @@ header {
   }
 }
 
-/* ===== SERVICES SECTION ===== */
-.services {
-  padding: 60px 20px;
-  background-color: #f3f4f6;
+/* Ensure the section and container don't vertically center content */
+.services-section {
+  padding: 60px 0; /* Adjust top padding if needed, but keep it reasonable */
 }
 
+.services-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Optional: aligns content to the left */
+  /* Remove any justify-content: center or align-items: center */
+}
+.services-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers children (heading & grid) horizontally */
+  width: 100%;
+}
+/* Ensure the title has no top margin and sits right after the section padding */
 .section-title {
-  text-align: center;
-  margin-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 40px; /* Add space below the title */
+  text-align: left; /* Or center, based on your design */
 }
 
 .section-title h2 {
@@ -703,3 +716,7 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
+/* ===== RESPONSIVE STYLES ===== */
+/* Media queries for responsiveness */
+/* Add your responsive styles here */ 
