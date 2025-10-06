@@ -787,16 +787,16 @@ header {
 
 /* ===== FOOTER ===== */
 footer {
-  background: linear-gradient(90deg, #0d0d0d, #1c1f23);
+  background: linear-gradient(90deg, #686565, #464647);
   color: #fff;
-  text-align: center;
+  text-align:justify;
   padding: 25px 15px;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .footer-left {
-  display: flex;
+  display:inherit;
   align-items: center;
   gap: 10px;
   font-weight: bold;
