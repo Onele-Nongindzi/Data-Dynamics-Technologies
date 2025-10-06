@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Data Dynamics | Contact</title>
+
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./src/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./src/style.css" />
 </head>
 <body>
 
@@ -29,35 +35,55 @@
   </header>
 
   <!-- Contact Section -->
-  <section class="contact-section container my-5">
-    <h2 class="text-center mb-4">Get in Touch</h2>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your name">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Your email">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+<section class="contact-section" id="contact">
+  <h2 class="contact-heading">Get in Touch</h2>
+
+  <div class="contact-card">
+    <div class="contact-details">
+      <p>Feel free to reach out with any questions or comments.</p>
+
+      <div class="info-box">
+        <i class="fas fa-phone-alt"></i>
+        <div>
+          <h4>Phone</h4>
+          <p>+27 826 495 081</p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h5>Contact Information</h5>
-        <p><i class="fas fa-phone-alt"></i> +27 (11) 233 233</p>
-        <p><i class="fas fa-envelope"></i> contact@datadynamics.com</p>
-        <p><i class="fas fa-map-marker-alt"></i> Gauteng, Johannesburg, South Africa</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.0!2d28.0473!3d-26.2041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95086f00000001%3A0x2!2sJohannesburg!5e0!3m2!1sen!2sza!4v1696070000000!5m2!1sen!2sza" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>ddt@gmail.com</p>
+        </div>
       </div>
+
+      <div class="info-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h4>Address</h4>
+          <p>Rosebank, South Africa</p>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#" method="POST">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
-  </section>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22969.77725741887!2d28.0317197!3d-26.1457625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950dccce43815b%3A0xa5bbbd2a6c2f91e7!2sRosebank%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1694783950835!5m2!1sen!2sza"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="footer py-4 bg-dark text-light text-center">
@@ -66,6 +92,7 @@
     </div>
   </footer>
 
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
