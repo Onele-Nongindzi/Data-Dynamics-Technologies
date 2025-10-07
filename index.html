@@ -44,14 +44,27 @@
 </header>
 
   <!-- Hero Section -->
-  <section class="hero" id="home">
-    <h1>Transform Your Business with <br><span>Expert IT Solutions</span></h1>
-    <p>We help businesses leverage technology to drive growth, improve efficiency, and stay competitive in the digital age.</p>
-    <div class="hero-buttons">
-      <a href="contact.html" class="buttons btn-left">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
-      <a href="services.html" class="buttons btn-right">Learn More</a>
-    </div>
-  </section>
+<section class="hero" id="home">
+  <div class="hero-slider">
+    <img src="src/images/istockphoto-1368237807-612x612.jpg" alt="Slide 1">
+    <img src="src/images/OIP1.webp" alt="Slide 2">
+    <img src="src/images/OIP2.webp" alt="Slide 3">
+    <img src="src/images/OIP3.jpg" alt="Slide 4">
+  </div>
+
+  <!-- Overlay -->
+  <div class="hero-overlay"></div>
+
+  <!-- Your content remains here -->
+  <h1>Transform Your Business with <br><span>Expert IT Solutions</span></h1>
+  <p>We help businesses leverage technology to drive growth, improve efficiency, and stay competitive in the digital age.</p>
+  <div class="hero-buttons">
+    <a href="contact.html" class="buttons btn-left">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
+    <a href="services.html" class="buttons btn-right">Learn More</a>
+  </div>
+</section>
+
+
 
   <!-- Statistics Section -->
   <section class="statistics">
@@ -81,6 +94,21 @@
   </footer>
 <!-- Bootstrap JS Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const slider = document.querySelector('.hero-slider');
+  const totalSlides = slider.children.length;
+  let currentIndex = 0;
+
+  function slideShow() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    slider.style.transform = `translateX(-${currentIndex * 100}vw)`;
+  }
+
+  // Start the slideshow
+  setInterval(slideShow, 5000);
+</script>
+
+
 
 </body>
 </html>

@@ -1,0 +1,156 @@
+[33mcommit f2a81c1e67fdc44920d07c14e4e5c738b8137320[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtinyiko[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Oct 7 12:11:10 2025 +0200
+
+    Make navbar fully mobile responsive with working hamburger menu
+
+[33mcommit 478eabd25166bd22e356337165cd810eeeec06a5[m
+Merge: 34cb53c 15f5532
+Author: Sphelele11 <smmncube01@gmail.com>
+Date:   Tue Oct 7 11:17:16 2025 +0200
+
+    Merge branch 'main' of https://github.com/Onele-Nongindzi/Data-Dynamics-Technologies
+
+[33mcommit 34cb53cf00ec3b677a18992acdd17ecc3ac67657[m
+Author: Sphelele11 <smmncube01@gmail.com>
+Date:   Tue Oct 7 11:17:05 2025 +0200
+
+    change cloud blog image
+
+[33mcommit 15f55320cb23456fe1d8be01439b387c86b7ecc0[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Oct 7 11:13:49 2025 +0200
+
+    Enhancing about page
+
+[33mcommit aebd69c88380fa86507743572f692f6d7fefcd07[m
+Merge: 0acc546 91691c3
+Author: TK <126784565+Tinyiko123@users.noreply.github.com>
+Date:   Tue Oct 7 10:11:14 2025 +0200
+
+    Merge pull request #3 from Onele-Nongindzi/tinyiko
+    
+    Tinyiko
+
+[33mcommit 91691c3b6505c7d6a645402aa902ba2f9733bb1b[m[33m ([m[1;31morigin/tinyiko[m[33m)[m
+Merge: af2d12a 0acc546
+Author: tinyiko123 <noziphosithebe1@gmail.com>
+Date:   Tue Oct 7 10:09:07 2025 +0200
+
+    button text changed to 'Get in touch'.
+
+[33mcommit 0acc5463a3fc8588ea9809f270adf1cfa4d2a1d6[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Mon Oct 6 15:40:48 2025 +0200
+
+    Enhance team center by adding Font Awesome user icon and styling
+
+[33mcommit 2723f6f7e3751812b0c8f9241e90738aa734b33a[m
+Author: Sphelele11 <smmncube01@gmail.com>
+Date:   Mon Oct 6 15:17:16 2025 +0200
+
+    move footer to the bottom center
+
+[33mcommit af2d12a6da87fd56895899649d82652dbb0267bf[m
+Merge: f1eb5f0 402f644
+Author: Khangwelo21 <127312551+Khangwelo21@users.noreply.github.com>
+Date:   Mon Oct 6 12:50:31 2025 +0200
+
+    update blogs page
+
+[33mcommit 29378f686316e877011a422c3de9807f94c6d593[m
+Merge: f1eb5f0 402f644
+Author: Khangwelo21 <127312551+Khangwelo21@users.noreply.github.com>
+Date:   Mon Oct 6 12:50:31 2025 +0200
+
+    Merge pull request #2 from Onele-Nongindzi/khangwelo
+    
+    khangwelo
+
+[33mcommit 402f6442cdfa3d26bd75c33756ab0e54783bf1ab[m[33m ([m[1;31morigin/khangwelo[m[33m)[m
+Merge: 92723ab f1eb5f0
+Author: Khangwelo Ramanenga <Khangwelo.Ramanenga@dynamicdna.co.za>
+Date:   Mon Oct 6 12:48:10 2025 +0200
+
+    update contact me page
+
+[33mcommit 92723abb8b9e34181494175a85a285992794fc32[m
+Author: Khangwelo Ramanenga <Khangwelo.Ramanenga@dynamicdna.co.za>
+Date:   Mon Oct 6 12:39:38 2025 +0200
+
+    update contact page
+
+[33mcommit f1eb5f0cd270b7a306689d363ce2ef0cc87a38e3[m
+Author: TK <126784565+Tinyiko123@users.noreply.github.com>
+Date:   Mon Oct 6 12:20:13 2025 +0200
+
+    Delete README.md
+
+[33mcommit 279d300d8f6f36f8d7e2f0dbd4a98b18ff8a8fc1[m
+Author: TK <126784565+Tinyiko123@users.noreply.github.com>
+Date:   Mon Oct 6 12:19:38 2025 +0200
+
+    Create README.md
+
+[33mcommit 29a6ac0ad99aacd180cec752425a07fef5774d68[m
+Merge: 235d1ca 62071f6
+Author: TK <126784565+Tinyiko123@users.noreply.github.com>
+Date:   Mon Oct 6 11:32:23 2025 +0200
+
+    Merge pull request #1 from Onele-Nongindzi/tinyiko
+    
+    comm
+
+[33mcommit 62071f6456ff43d593e9fa0ef594f1344de70772[m
+Author: tinyiko123 <noziphosithebe1@gmail.com>
+Date:   Mon Oct 6 11:23:04 2025 +0200
+
+    comm
+
+[33mcommit 235d1ca3ed65740fc1b866742c3053a41399f3d1[m
+Author: Sphelele11 <smmncube01@gmail.com>
+Date:   Mon Oct 6 10:30:13 2025 +0200
+
+    Blog name update
+
+[33mcommit eb7b53e79c0aa86cf796ef61d06b1b28f0e04e0a[m
+Author: Sphelele11 <smmncube01@gmail.com>
+Date:   Mon Oct 6 10:17:34 2025 +0200
+
+    add blogs images
+
+[33mcommit dd4c5c8b03e5a708a28b3dd7390e89b6061b6afa[m[33m ([m[1;31morigin/hazath[m[33m)[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Fri Oct 3 15:41:41 2025 +0200
+
+    Add improved CSS for blog pages
+
+[33mcommit ebd2b5ef11897e7630400df4fff9e3580e4093db[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Fri Oct 3 14:40:03 2025 +0200
+
+    add background image to body for enhanced visual design
+
+[33mcommit 0f109f0933822c77710382143930cff7db9e8d22[m[33m ([m[1;32mmain[m[33m)[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Sep 30 15:47:51 2025 +0200
+
+    add Services, About, Blogs, Contact pages; expanded blog section with 6 blogs and working Read More links; update navigation and footer
+
+[33mcommit 71710630f42c59382cdacb28618db2282ecbefc0[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Sep 30 13:41:01 2025 +0200
+
+    create src folder and move js and css to the folder
+
+[33mcommit d30be41f16f8133c64625c6f0733882d8a4a2887[m[33m ([m[1;31morigin/tholumuzi[m[33m, [m[1;31morigin/mahazath[m[33m)[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Sep 30 12:25:43 2025 +0200
+
+    Add core HTML structure with styling and scripts
+
+[33mcommit f8e07e829899d5d1016e0a86356a0ae4510bb839[m[33m ([m[1;31morigin/development[m[33m)[m
+Author: Onele-Nongindzi <onelenongindzi@gmail.com>
+Date:   Tue Sep 30 12:13:15 2025 +0200
+
+    Initial commit
