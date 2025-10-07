@@ -1,107 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Data Dynamics — a leading IT consulting and software solutions company delivering innovative tech services.">
   <title>Data Dynamics | About</title>
+  
+  <!-- Font Awesome (fixed URL) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Bootstrap CSS (fixed URL) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Responsive Navbar -->
   <header class="sticky-header">
-    <div class="container d-flex justify-content-between align-items-center py-3">
-      <div class="logo">
-        <h1><i class="fas fa-network-wired"></i> Data Dynamics</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white container py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="fas fa-network-wired"></i> Data Dynamics
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <nav>
-        <ul class="nav-links d-flex gap-3">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="blogs.html">Blogs</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    </nav>
   </header>
 
- <!-- About Section -->
-<section class="about-section container my-5">
-  <h2 class="text-center mb-4 about-title">About Data Dynamics</h2>
+  <!-- About Section -->
+  <section class="about-section container my-5">
+    <h2 class="text-center mb-4 about-title">About Data Dynamics</h2>
 
-  <div class="card shadow-lg border-0 rounded-4 p-4">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <p>
-          Data Dynamics is a leading IT consulting and software solutions company. 
-          We provide innovative technology solutions that help businesses grow and 
-          stay competitive in the digital era.
-        </p>
-        <ul class="about-list">
-          <li><i class="fa-solid fa-user-shield"></i> Certified IT professionals with industry expertise</li>
-          <li><i class="fa-solid fa-headset"></i> 24/7 support and monitoring services</li>
-          <li><i class="fa-solid fa-gears"></i> Customized solutions for your business needs</li>
-          <li><i class="fa-solid fa-chart-line"></i> Proven track record of successful implementations</li>
-        </ul>
+    <div class="card shadow-lg border-0 rounded-4 p-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <p>
+            Data Dynamics is a leading IT consulting and software solutions company. 
+            We provide innovative technology solutions that help businesses grow and 
+            stay competitive in the digital era.
+          </p>
+          <ul class="about-list ps-3">
+            <li><i class="fa-solid fa-user-shield me-2 text-primary"></i> Certified IT professionals with industry expertise</li>
+            <li><i class="fa-solid fa-headset me-2 text-primary"></i> 24/7 support and monitoring services</li>
+            <li><i class="fa-solid fa-gears me-2 text-primary"></i> Customized solutions for your business needs</li>
+            <li><i class="fa-solid fa-chart-line me-2 text-primary"></i> Proven track record of successful implementations</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <img 
+            src="./src/images/istockphoto-1422478091-612x612.jpg" 
+            alt="Team collaborating on digital innovation at Data Dynamics" 
+            class="img-fluid rounded-4 shadow-sm"
+            loading="lazy"
+          >
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="col-md-6 text-center">
-        <img src="./src/images/istockphoto-1422478091-612x612.jpg" alt="About Data Dynamics" class="img-fluid rounded-4 shadow-sm">
+  <!-- Meet Our Team -->
+  <section class="team-section my-5 py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Meet Our Team</h2>
+      
+      <div class="row g-4 justify-content-center">
+        <!-- Team Member 1 -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-member text-center bg-white p-4 rounded-3 shadow-sm">
+            <img 
+              src="./src/images/onele.jfif" 
+              alt="Onele Nongindzi, Front-End Developer" 
+              class="rounded-circle mb-3"
+              loading="lazy"
+            >
+            <h6>Onele Nongindzi</h6>
+            <small class="text-muted">Front-End Developer</small>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-member text-center bg-white p-4 rounded-3 shadow-sm">
+            <img 
+              src="./src/images/s.jfif" 
+              alt="S'phelele Mncube, Back-End Developer" 
+              class="rounded-circle mb-3"
+              loading="lazy"
+            >
+            <h6>S'phelele Mncube</h6>
+            <small class="text-muted">Back-End Developer</small>
+          </div>
+        </div>
+        
+        <!-- Team Member 3 -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-member text-center bg-white p-4 rounded-3 shadow-sm">
+            <img 
+              src="./src/images/p.jfif" 
+              alt="Portia Sabelo, UI/UX Designer" 
+              class="rounded-circle mb-3"
+              loading="lazy"
+            >
+            <h6>Portia Sabelo</h6>
+            <small class="text-muted">UI/UX Designer</small>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-member text-center bg-white p-4 rounded-3 shadow-sm">
+            <img 
+              src="./src/images/t.jfif" 
+              alt="Tinyiko Sithebe, Quality Assurance" 
+              class="rounded-circle mb-3"
+              loading="lazy"
+            >
+            <h6>Tinyiko Sithebe</h6>
+            <small class="text-muted">Quality Assurance</small>
+          </div>
+        </div>
+        
+        <!-- Team Member 5 -->
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="team-member text-center bg-white p-4 rounded-3 shadow-sm">
+            <img 
+              src="./src/images/k.jfif" 
+              alt="Khangwelo Rananenga, UX Designer" 
+              class="rounded-circle mb-3"
+              loading="lazy"
+            >
+            <h6>Khangwelo Rananenga</h6>
+            <small class="text-muted">UX Designer</small>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
- <!-- Meet Our Team -->
-<section class="team-section my-5">
-  <h3 class="text-center mb-5">Meet Our Team</h3>
-  <div class="team-container">
-    <!-- Center Logo/Text -->
-<div class="team-center">
-        <i class="fas fa-user team-icon"></i>
-        <h4>Data Dynamics</h4>
-        <small>Our Experts</small>
-    </div>
-    <!-- Team Members -->
-    <div class="team-member">
-      <img src="./src/images/onele.jfif" alt="Onele">
-      <h6>Onele Nongindzi</h6>
-      <small>Front-End Developer</small>
-    </div>
-    <div class="team-member">
-      <img src="./src/images/s.jfif" alt="Sphelele">
-      <h6>S'phelele Mncube</h6>
-      <small>Back-End Developer</small>
-    </div>
-    <div class="team-member">
-      <img src="./src/images/p.jfif" alt="Portia">
-      <h6>Portia Sabelo</h6>
-      <small>UI/UX Designer</small>
-    </div>
-    <div class="team-member">
-      <img src="./src/images/t.jfif" alt="Tinyiko">
-      <h6>Tinyiko Sithebe</h6>
-      <small>Quality Assurance</small>
-    </div>
-    <div class="team-member">
-      <img src="./src/images/k.jfif" alt="Khangwelo">
-      <h6>Khangwelo Rananenga</h6>
-      <small>UX Designer</small>
-    </div>
-  </div>
-</section>
-
-  <!-- Footer -->
+   <!-- Footer -->
   <footer class="footer">
     <div class="container d-flex justify-content-center align-items-center">
       <p>&copy; 2025 <strong>Data Dynamics Tech</strong>. All rights reserved.</p>
     </div>
   </footer>
 
+  <!-- Bootstrap JS (fixed URL) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Optional: Header scroll effect -->
+  <script>
+    window.addEventListener('scroll', () => {
+      document.querySelector('.sticky-header').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
 </body>
 </html>

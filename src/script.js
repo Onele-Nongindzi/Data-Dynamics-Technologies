@@ -8,4 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
       wrap: true
     });
   }
+  // Add shadow to header on scroll
+  window.addEventListener('scroll', () => {
+    document.querySelector('.sticky-header').classList.toggle('scrolled', window.scrollY > 10);
+});
 });
