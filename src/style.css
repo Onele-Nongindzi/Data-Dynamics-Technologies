@@ -955,6 +955,15 @@ footer {
   max-width: 100%;
   border-radius: 10px;
 }
+.row.flex-nowrap {
+  flex-wrap: nowrap !important; /* Prevent wrapping */
+}
+
+.team-member {
+  min-width: 200px; /* optional, ensures cards don't shrink too much */
+  margin-right: 20px; /* optional spacing between cards */
+}
+
 
 /* ===== RESPONSIVE STYLES ===== */
 /* Media queries for responsiveness */
