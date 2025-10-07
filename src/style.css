@@ -787,16 +787,16 @@ header {
 
 /* ===== FOOTER ===== */
 footer {
-  background: linear-gradient(90deg, #0d0d0d, #1c1f23);
+  background: linear-gradient(90deg, #686565, #464647);
   color: #fff;
-  text-align: center;
+  text-align:justify;
   padding: 25px 15px;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .footer-left {
-  display: flex;
+  display:inherit;
   align-items: center;
   gap: 10px;
   font-weight: bold;
@@ -824,7 +824,33 @@ footer {
     gap: 10px;
   }
 }
-
+.team-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            font-family: Arial, sans-serif;
+        }
+        
+        .team-icon {
+            font-size: 3rem;
+            color: #4a90e2;
+            margin-bottom: 1rem;
+        }
+        
+        .team-center h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        
+        .team-center small {
+            font-size: 0.875rem;
+            color: #666;
+        }
 /* ===== ANIMATIONS ===== */
 .fade {
   animation-name: fade;
