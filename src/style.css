@@ -403,6 +403,37 @@ header {
     text-align: left;
   }
 }
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 80px;
+  background: #f9f9f9;
+}
+
+.about-text {
+  flex: 1;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
 
 /* ===== CAROUSEL SECTION ===== */
 .carousel-item {
@@ -824,7 +855,33 @@ footer {
     gap: 10px;
   }
 }
-
+.team-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            font-family: Arial, sans-serif;
+        }
+        
+        .team-icon {
+            font-size: 3rem;
+            color: #4a90e2;
+            margin-bottom: 1rem;
+        }
+        
+        .team-center h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        
+        .team-center small {
+            font-size: 0.875rem;
+            color: #666;
+        }
 /* ===== ANIMATIONS ===== */
 .fade {
   animation-name: fade;
@@ -844,6 +901,62 @@ footer {
 .blog-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.about-section {
+  text-align: center;
+}
+
+.about-title {
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.about-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #0078d7;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+.about-section .card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  padding: 50px 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.about-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+.about-list i {
+  color: #0078d7;
+  margin-right: 8px;
+}
+
+.about-section img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 /* ===== RESPONSIVE STYLES ===== */
